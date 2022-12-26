@@ -11,6 +11,7 @@ html {
 body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  line-height: 1;
 }
 
 /* ****************************** */
@@ -46,9 +47,9 @@ body {
 
 .logo-text {
   font-size: 1.6rem;
-  line-height: 50;
+  line-height: 21;
   color: #000000;
-  margin-left: -0.4rem;
+  margin-left: -0.41rem;
 }
 
 .navbar {
@@ -71,7 +72,7 @@ body {
 .nav-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  line-height: 50;
+  line-height: 312%;
   color: #010201;
 }
 
@@ -81,10 +82,69 @@ body {
 .nav-link__active:visited {
   color: #e06733;
   font-weight: 700;
-  /* font-size: 1.6rem; */
-  /* line-height: 50; */
 }
 
 .nav-link__active {
   margin-left: 0.09rem;
+}
+
+/* ****************************** */
+/* WELCOME SECTION */
+/* ****************************** */
+
+.section-welcome {
+  height: 53.2rem;
+  background-color: #edf2ec;
+}
+
+.welcome-content {
+  display: flex;
+  width: 122rem;
+  margin: 0 auto;
+  padding-top: 6.2rem;
+}
+
+.welcome-leafs {
+  width: 46.2rem;
+  height: 42.3rem;
+  margin-top: -0.9rem;
+  margin-left: -0.95rem;
+}
+
+.welcome-box {
+  width: 54.9rem;
+  height: 34rem;
+  margin-left: 22rem;
+  margin-top: 3.6rem;
+}
+
+.welcome-heading {
+  color: #717171;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 111%;
+}
+
+.welcome-heading__green-text {
+  color: #499a18;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 175%;
+  color: #636060;
+  margin-top: 4.37rem;
+}
+
+.welcome-btn {
+  border: 2px solid #e06733;
+  border-radius: 10px;
+  margin-top: 4.75rem;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 1.58rem;
+  line-height: 1.7rem;
+  padding: 1.15rem 2.48rem;
 }
