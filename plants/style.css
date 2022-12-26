@@ -148,3 +148,56 @@ body {
   line-height: 1.7rem;
   padding: 1.15rem 2.48rem;
 }
+
+/* ****************************** */
+/* ABOUT SECTION */
+/* ****************************** */
+
+.section-about {
+  height: 66.6rem;
+  background-color: #ffffff;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  width: 122rem;
+  margin: 0 auto;
+  padding-top: 9.3rem;
+}
+
+.about-box {
+  width: 60.5rem;
+  margin-top: 6.8rem;
+  margin-left: -0.1rem;
+  margin-right: -1rem;
+}
+
+.about-heading {
+  width: 46.3rem;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  color: #499a18;
+}
+
+.about-heading__orange-text {
+  color: #e06733;
+}
+
+.about-text {
+  margin-top: 3.83rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #636060;
+}
+
+.about-img {
+  width: 46.35rem;
+  height: 48rem;
+}
