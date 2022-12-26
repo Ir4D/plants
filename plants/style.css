@@ -3,3 +3,88 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+/* ****************************** */
+/* GENERAL REUSABLE STYLES */
+/* ****************************** */
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+/* ****************************** */
+/* HEADER */
+/* ****************************** */
+
+.header {
+  background-color: #edf2ec;
+  font-family: "Inika", serif;
+  height: 13.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo-box {
+  margin-top: 0.17rem;
+  margin-left: -0.2rem;
+}
+
+.logo-img {
+  width: 2.55rem;
+  height: 2.16rem;
+}
+
+.logo-text {
+  font-size: 1.6rem;
+  line-height: 50;
+  color: #000000;
+  margin-left: -0.4rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 122rem;
+  height: 5rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 45.2rem;
+  list-style: none;
+  margin-top: 0.13rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 50;
+  color: #010201;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link__active:link,
+.nav-link__active:visited {
+  color: #e06733;
+  font-weight: 700;
+  /* font-size: 1.6rem; */
+  /* line-height: 50; */
+}
+
+.nav-link__active {
+  margin-left: 0.09rem;
+}
