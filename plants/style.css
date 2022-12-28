@@ -201,3 +201,118 @@ body {
   width: 46.35rem;
   height: 48rem;
 }
+
+/* ****************************** */
+/* SERVICE SECTION */
+/* ****************************** */
+
+.section-service {
+  height: 130rem;
+  background-color: #edf2ec;
+}
+
+.service-content {
+  width: 122rem;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+.service-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100.7rem;
+}
+
+.service-heading {
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  color: #499a18;
+  width: 30.6rem;
+  margin-left: -0.1rem;
+}
+
+.service-btn {
+  background-color: #edf2ec;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  margin-top: 2.93rem;
+  width: 16.12rem;
+  height: 4.95rem;
+  margin-left: 3.5rem;
+  font-family: "Inika";
+  font-style: normal;
+  font-weight: 400;
+  color: #e06733;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  padding-top: 0.01rem;
+}
+
+.service-btn:nth-child(1) {
+  letter-spacing: 0.008rem;
+  padding-right: 0.49rem;
+}
+
+.service-btn:nth-child(3) {
+  letter-spacing: 0.007rem;
+  margin-right: 0.12rem;
+  padding-right: 0.28rem;
+}
+
+.service-options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 11.6rem;
+  padding-top: 8rem;
+  margin-right: -0.04rem;
+  margin-left: -0.15rem;
+}
+
+.option-item {
+  padding-bottom: 5.55rem;
+}
+
+.option-box {
+  height: 9.8rem;
+  border: 1px solid #e3e1d5;
+  border-radius: 0 0 2rem 2rem;
+}
+
+.option-name {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.7rem;
+  color: #e06733;
+  text-align: center;
+  margin: 1rem 0.08rem 1.5rem 0rem;
+}
+
+.option-item:nth-child(2) .option-box .option-name {
+  margin-left: 0.35rem;
+}
+
+.option-item:nth-child(3) .option-box .option-name {
+  margin-right: 0.25rem;
+}
+
+.option-item:nth-child(4) .option-box .option-name {
+  margin-left: 0.24rem;
+}
+
+.option-item:nth-child(5) .option-box .option-name {
+  margin-left: 0.17rem;
+}
+
+.option-item:nth-child(6) .option-box .option-name {
+  margin-left: 0.25rem;
+}
+
+.option-text {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #717171;
+}
