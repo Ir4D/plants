@@ -23,6 +23,11 @@ body {
   margin: 0 auto;
 }
 
+.content {
+  width: 122rem;
+  margin: 0 auto;
+}
+
 /* ****************************** */
 /* HEADER */
 /* ****************************** */
@@ -99,8 +104,6 @@ body {
 
 .welcome-content {
   display: flex;
-  width: 122rem;
-  margin: 0 auto;
   padding-top: 6.2rem;
 }
 
@@ -161,8 +164,6 @@ body {
 .about-content {
   display: flex;
   justify-content: space-between;
-  width: 122rem;
-  margin: 0 auto;
   padding-top: 9.3rem;
 }
 
@@ -212,8 +213,6 @@ body {
 }
 
 .service-content {
-  width: 122rem;
-  margin: 0 auto;
   padding-top: 4rem;
 }
 
