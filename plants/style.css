@@ -28,6 +28,16 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #e06733;
+  color: #ffffff;
+  cursor: pointer;
+}
+
 /* ****************************** */
 /* HEADER */
 /* ****************************** */
@@ -538,6 +548,7 @@ body {
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
+  transition-duration: 0.3s;
 }
 
 .footer-link:hover,
