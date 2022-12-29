@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,7 +30,7 @@ body {
 }
 
 .btn {
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
 }
 
 .btn:hover {
@@ -51,18 +52,19 @@ body {
 }
 
 .logo-box {
-  margin-top: 0.17rem;
+  margin-top: -1.4rem;
   margin-left: -0.2rem;
 }
 
 .logo-img {
   width: 2.55rem;
   height: 2.16rem;
+  margin-top: 0.54rem;
 }
 
 .logo-text {
   font-size: 1.6rem;
-  line-height: 21;
+  line-height: 0.01rem;
   color: #000000;
   margin-left: -0.41rem;
 }
@@ -78,7 +80,7 @@ body {
 .nav-list {
   display: flex;
   justify-content: space-between;
-  width: 45.2rem;
+  width: 45.25rem;
   list-style: none;
   margin-top: 0.13rem;
 }
@@ -87,8 +89,8 @@ body {
 .nav-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  line-height: 312%;
   color: #010201;
+  transition: all 0.3s;
 }
 
 .nav-link:hover,
@@ -97,10 +99,29 @@ body {
 .nav-link__active:visited {
   color: #e06733;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .nav-link__active {
-  margin-left: 0.09rem;
+  margin-left: 0.1rem;
+  letter-spacing: 0.032rem;
+  font-weight: 900;
+}
+
+.nav-link__2 {
+  margin-left: -0.02rem;
+}
+
+.nav-link__3 {
+  margin-left: 0.1rem;
+}
+
+.nav-link__4 {
+  margin-right: 0.1rem;
+}
+
+.nav-link__5 {
+  margin-right: 0.02rem;
 }
 
 /* ****************************** */
