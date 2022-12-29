@@ -481,3 +481,67 @@ body {
   letter-spacing: 0.05em;
   color: #717171;
 }
+
+/* ****************************** */
+/* FOOTER */
+/* ****************************** */
+
+.footer {
+  height: 13rem;
+  background-color: #ffffff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.footer-data {
+  display: flex;
+  justify-content: space-between;
+  width: 16.83rem;
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #000000;
+  margin-top: 1.99rem;
+  margin-left: -0.1rem;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-school {
+  font-size: 2rem;
+  line-height: 5rem;
+  color: #000000;
+  margin-top: 2rem;
+  margin-left: 1.76rem;
+}
+
+.school-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.media-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 18.8rem;
+  margin-top: 2.9rem;
+  margin-right: -0.07rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  cursor: pointer;
+  filter: drop-shadow(2px 2px 1px #499a18);
+}
