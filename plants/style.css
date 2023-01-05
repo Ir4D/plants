@@ -19,11 +19,6 @@ body {
 /* GENERAL REUSABLE STYLES */
 /* ****************************** */
 
-.container {
-  max-width: 144rem;
-  margin: 0 auto;
-}
-
 .content {
   width: 122rem;
   margin: 0 auto;
@@ -74,6 +69,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 122rem;
+  margin: 0 auto;
   height: 5rem;
 }
 
@@ -157,7 +153,7 @@ body {
   font-size: 4.5rem;
   font-weight: 700;
   font-style: normal;
-  line-height: 111%;
+  line-height: 5rem;
 }
 
 .welcome-heading__green-text {
