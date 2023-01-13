@@ -57,7 +57,7 @@ body {
   height: 2.1rem;
   margin-top: 0.54rem;
   margin-right: 0.09rem;
-  background: url(./assets/logo.svg) 100% 100% no-repeat;
+  background: url(../assets/logo.svg) 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -143,7 +143,7 @@ body {
   height: 42.3rem;
   margin-top: -0.9rem;
   margin-left: -0.95rem;
-  background: url(./assets/leafs.png) 100% 100% no-repeat;
+  background: url(../assets/leafs.png) 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -235,7 +235,7 @@ body {
 .about-img {
   width: 46.35rem;
   height: 48rem;
-  background: url(./assets/houseplant.png) 100% 100% no-repeat;
+  background: url(../assets/houseplant.png) 100% 100% no-repeat;
   background-size: cover;
   margin-right: -0.15rem;
 }
@@ -319,32 +319,32 @@ body {
 }
 
 .img-service1 {
-  background: url(./assets/service-1.png) 100% 50% no-repeat;
+  background: url(../assets/service-1.png) 100% 50% no-repeat;
   background-size: cover;
 }
 
 .img-service2 {
-  background: url(./assets/service-2.png) 100% 50% no-repeat;
+  background: url(../assets/service-2.png) 100% 50% no-repeat;
   background-size: cover;
 }
 
 .img-service3 {
-  background: url(./assets/service-3.png) 50% 100% no-repeat;
+  background: url(../assets/service-3.png) 50% 100% no-repeat;
   background-size: cover;
 }
 
 .img-service4 {
-  background: url(./assets/service-4.png) 100% 50% no-repeat;
+  background: url(../assets/service-4.png) 100% 50% no-repeat;
   background-size: cover;
 }
 
 .img-service5 {
-  background: url(./assets/service-5.png) 100% 50% no-repeat;
+  background: url(../assets/service-5.png) 100% 50% no-repeat;
   background-size: cover;
 }
 
 .img-service6 {
-  background: url(./assets/service-6.png) 100% 50% no-repeat;
+  background: url(../assets/service-6.png) 100% 50% no-repeat;
   background-size: cover;
 }
 
@@ -455,7 +455,7 @@ body {
 .block-img {
   width: 1.6rem;
   height: 1.6rem;
-  background: url(./assets/prices-btn.png) 100% 100% no-repeat;
+  background: url(../assets/prices-btn.png) 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -502,7 +502,7 @@ body {
   height: 18.6rem;
   margin-top: 3.45rem;
   margin-right: -0.85rem;
-  background: url(./assets/leafs_prices.png) 100% 100% no-repeat;
+  background: url(../assets/leafs_prices.png) 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -526,7 +526,7 @@ body {
   height: 49.699rem;
   margin-left: -0.1rem;
   margin-top: -0.1rem;
-  background: url(./assets/woman.png) 100% 100% no-repeat;
+  background: url(../assets/woman.png) 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -564,7 +564,7 @@ body {
 .city-img {
   width: 1.6rem;
   height: 1.6rem;
-  background: url(./assets/contacts_btn.png) 100% 100% no-repeat;
+  background: url(../assets/contacts_btn.png) 100% 100% no-repeat;
   background-size: cover;
 }
 
@@ -628,22 +628,22 @@ body {
 }
 
 .media-inst {
-  background: url(./assets/media_inst.svg) 100% 100% no-repeat;
+  background: url(../assets/media_inst.svg) 100% 100% no-repeat;
   background-size: cover;
 }
 
 .media-fb {
-  background: url(./assets/media_fb.svg) 100% 100% no-repeat;
+  background: url(../assets/media_fb.svg) 100% 100% no-repeat;
   background-size: cover;
 }
 
 .media-tw {
-  background: url(./assets/media_tw.svg) 100% 100% no-repeat;
+  background: url(../assets/media_tw.svg) 100% 100% no-repeat;
   background-size: cover;
 }
 
 .media-pint {
-  background: url(./assets/media_pint.svg) 100% 100% no-repeat;
+  background: url(../assets/media_pint.svg) 100% 100% no-repeat;
   background-size: cover;
 }
 

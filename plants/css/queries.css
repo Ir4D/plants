@@ -1,0 +1,10 @@
+/* ****************************** */
+/* BELOW 768px (Tablets)          */
+/* ****************************** */
+
+@media (max-width: 48em) {
+  .content {
+    width: 66.8rem;
+    margin: 0 auto;
+  }
+}
