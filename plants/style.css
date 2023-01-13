@@ -47,21 +47,25 @@ body {
 }
 
 .logo-box {
-  margin-top: -1.4rem;
-  margin-left: -0.2rem;
+  margin-top: -1.22rem;
+  margin-left: -0.05rem;
 }
 
 .logo-img {
-  width: 2.55rem;
-  height: 2.16rem;
+  display: inline-block;
+  width: 2.3rem;
+  height: 2.1rem;
   margin-top: 0.54rem;
+  margin-right: 0.09rem;
+  background: url(./assets/logo.svg) 100% 100% no-repeat;
+  background-size: cover;
 }
 
 .logo-text {
   font-size: 1.6rem;
-  line-height: 0.01rem;
   color: #000000;
   margin-left: -0.41rem;
+  margin-top: 0.5rem;
 }
 
 .navbar {
@@ -139,6 +143,8 @@ body {
   height: 42.3rem;
   margin-top: -0.9rem;
   margin-left: -0.95rem;
+  background: url(./assets/leafs.png) 100% 100% no-repeat;
+  background-size: cover;
 }
 
 .welcome-box {
@@ -172,12 +178,12 @@ body {
   border: 2px solid #e06733;
   border-radius: 10px;
   background-color: #edf2ec;
-  margin-top: 4.75rem;
+  margin-top: 4.65rem;
   text-transform: uppercase;
   color: #000000;
   font-size: 1.58rem;
   line-height: 1.7rem;
-  padding: 1.15rem 2.48rem;
+  padding: 1.22rem 2.5rem 1.05rem;
 }
 
 /* ****************************** */
@@ -229,6 +235,9 @@ body {
 .about-img {
   width: 46.35rem;
   height: 48rem;
+  background: url(./assets/houseplant.png) 100% 100% no-repeat;
+  background-size: cover;
+  margin-right: -0.15rem;
 }
 
 /* ****************************** */
@@ -295,15 +304,52 @@ body {
   grid-column-gap: 11.6rem;
   padding-top: 8rem;
   margin-right: -0.04rem;
-  margin-left: -0.15rem;
+  margin-left: -0.1rem;
 }
 
 .option-item {
-  padding-bottom: 5.55rem;
+  padding-bottom: 5.5rem;
+}
+
+.option-img {
+  width: 32.9rem;
+  height: 35rem;
+  border-radius: 2rem 2rem 0 0;
+  margin-left: 0.1rem;
+}
+
+.img-service1 {
+  background: url(./assets/service-1.png) 100% 50% no-repeat;
+  background-size: cover;
+}
+
+.img-service2 {
+  background: url(./assets/service-2.png) 100% 50% no-repeat;
+  background-size: cover;
+}
+
+.img-service3 {
+  background: url(./assets/service-3.png) 50% 100% no-repeat;
+  background-size: cover;
+}
+
+.img-service4 {
+  background: url(./assets/service-4.png) 100% 50% no-repeat;
+  background-size: cover;
+}
+
+.img-service5 {
+  background: url(./assets/service-5.png) 100% 50% no-repeat;
+  background-size: cover;
+}
+
+.img-service6 {
+  background: url(./assets/service-6.png) 100% 50% no-repeat;
+  background-size: cover;
 }
 
 .option-box {
-  height: 9.8rem;
+  height: 10rem;
   border: 1px solid #e3e1d5;
   border-radius: 0 0 2rem 2rem;
 }
@@ -314,7 +360,7 @@ body {
   line-height: 1.7rem;
   color: #e06733;
   text-align: center;
-  margin: 1rem 0.08rem 1.5rem 0rem;
+  margin: 1.1rem 0.08rem 1.5rem 0rem;
 }
 
 .option-item:nth-child(2) .option-box .option-name {
@@ -409,6 +455,8 @@ body {
 .block-img {
   width: 1.6rem;
   height: 1.6rem;
+  background: url(./assets/prices-btn.png) 100% 100% no-repeat;
+  background-size: cover;
 }
 
 .calling-box {
@@ -454,6 +502,8 @@ body {
   height: 18.6rem;
   margin-top: 3.45rem;
   margin-right: -0.85rem;
+  background: url(./assets/leafs_prices.png) 100% 100% no-repeat;
+  background-size: cover;
 }
 
 /* ****************************** */
@@ -476,6 +526,8 @@ body {
   height: 49.699rem;
   margin-left: -0.1rem;
   margin-top: -0.1rem;
+  background: url(./assets/woman.png) 100% 100% no-repeat;
+  background-size: cover;
 }
 
 .contacts-heading {
@@ -507,6 +559,13 @@ body {
   line-height: 4rem;
   letter-spacing: 0.05em;
   color: #717171;
+}
+
+.city-img {
+  width: 1.6rem;
+  height: 1.6rem;
+  background: url(./assets/contacts_btn.png) 100% 100% no-repeat;
+  background-size: cover;
 }
 
 /* ****************************** */
@@ -560,6 +619,32 @@ body {
   width: 18.8rem;
   margin-top: 2.9rem;
   margin-right: -0.07rem;
+}
+
+.media-icon {
+  display: inline-block;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.media-inst {
+  background: url(./assets/media_inst.svg) 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.media-fb {
+  background: url(./assets/media_fb.svg) 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.media-tw {
+  background: url(./assets/media_tw.svg) 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.media-pint {
+  background: url(./assets/media_pint.svg) 100% 100% no-repeat;
+  background-size: cover;
 }
 
 .footer-link:link,
