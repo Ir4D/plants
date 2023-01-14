@@ -1,10 +1,289 @@
 /* ****************************** */
-/* BELOW 768px (Tablets)          */
+/* BELOW 768px (48em) - Tablets   */
+/* 768px / 16px = 48              */
 /* ****************************** */
 
 @media (max-width: 48em) {
+  /* GENERAL REUSABLE STYLES */
   .content {
     width: 66.8rem;
+  }
+
+  /* HEADER */
+  .header {
+    height: 11.7rem;
+  }
+
+  .navbar {
+    width: 66.8rem;
+    margin-top: 0.4rem;
+  }
+
+  .logo-box {
+    margin-left: -0.1rem;
+  }
+
+  .nav-list {
+    margin-right: 0.1rem;
+  }
+
+  /* WELCOME SECTION */
+  .section-welcome {
+    height: 42rem;
+  }
+
+  .welcome-content {
+    flex-direction: row-reverse;
+    padding-top: 4rem;
+    column-gap: 4.1rem;
+  }
+
+  .welcome-img {
+    margin: 0;
+    /*width: 28.7rem;
+    height: 26rem; */
+    width: 29rem;
+    height: 27rem;
+    margin-top: -1rem;
+    margin-right: -0.4rem;
+  }
+
+  .welcome-box {
+    margin: 0;
+    width: 34.1rem;
+  }
+
+  .welcome-heading {
+    font-size: 3.5rem;
+  }
+
+  .welcome-text {
+    font-size: 1.6rem;
+    margin-top: 3.1rem;
+    margin-left: 0.5rem;
+    line-height: 2.5rem;
+  }
+
+  .welcome-btn {
+    margin-top: 3.5rem;
+  }
+
+  /* ABOUT SECTION */
+  .section-about {
+    height: 78.3rem;
+  }
+
+  .about-content {
+    display: block;
+    padding-top: 3.95rem;
+  }
+
+  .about-box {
+    width: auto;
     margin: 0 auto;
   }
+
+  .about-heading {
+    font-size: 3.5rem;
+    line-height: 4.65rem;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 0.1rem;
+  }
+
+  .about-text {
+    font-size: 2rem;
+    margin-top: 4.9rem;
+  }
+
+  .about-img {
+    width: 25rem;
+    height: 25.8rem;
+    margin: 0 auto;
+    margin-top: 6.8rem;
+  }
+
+  /* SERVICE SECTION */
+  .section-service {
+    height: 178rem;
+  }
+
+  .service-content {
+    padding-top: 6rem;
+  }
+
+  .service-box {
+    display: block;
+    width: 66.8rem;
+  }
+
+  .service-heading {
+    font-size: 3.5rem;
+    line-height: 4.6rem;
+    margin-left: -0.05rem;
+  }
+
+  .service-btn {
+    margin-top: 4.2rem;
+    margin-left: 3.5rem;
+  }
+
+  .service-btn:nth-child(1) {
+    margin-left: 0;
+  }
+
+  .service-options {
+    padding-top: 4rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10.6rem;
+  }
+
+  .option-item {
+    width: 28.1rem;
+    padding-bottom: 3.8rem;
+  }
+
+  .option-img {
+    width: 28rem;
+  }
+
+  .option-box {
+    padding: 0 2rem;
+  }
+
+  .option-item:nth-child(2) .option-box .option-name {
+    margin-left: -0.1rem;
+  }
+
+  .option-item:nth-child(3) .option-box .option-name {
+    margin-left: 0.4rem;
+  }
+
+  .option-item:nth-child(4) .option-box .option-name, .option-item:nth-child(6) .option-box .option-name {
+    margin-top: 1.2rem;
+    margin-left: -0.05rem;
+  }
+  
+  .option-text {
+    margin-top: -0.39rem;
+    margin-left: 0.15rem;
+  }
+
+  .option-item:nth-child(2) .option-box .option-text {
+    margin-top: -0.2rem;
+    margin-left: -0.15rem;
+  }
+
+  .option-item:nth-child(3) .option-box .option-text {
+    margin-top: -0.55rem;
+  }
+
+  .option-item:nth-child(4) .option-box .option-text, .option-item:nth-child(6) .option-box .option-text {
+    margin-top: -0.22rem;
+    margin-left: -0.15rem;
+  }
+
+  /* PRICES SECTION */
+  .section-prices {
+    height: 58.5rem;
+  }
+
+  .prices-content {
+    padding-top: 3.72rem;
+  }
+
+  .prices-heading {
+    font-size: 3.5rem;
+    margin-left: 1.47rem;
+  }
+
+  .prices-block {
+    margin-top: 5.4rem;
+    margin-left: 0.11rem;
+  }
+
+  .calling-box {
+    margin-top: 10.4rem;
+  }
+  
+  .calling-text {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+
+  .calling-btn {
+    margin-top: 2.8rem;
+  }
+
+  .calling-img {
+    margin-top: 2.9rem;
+  }
+
+  /* CONTACT US SECTION */
+  .section-contacts {
+    height: 73.9rem;
+  }
+
+  .contacts-content {
+    padding-top: 4.6rem;
+    flex-direction: column;
+  }
+
+  .contacts-img {
+    order: 3;
+    margin-top: 0.1rem;
+    margin-left: 24.4rem;
+    width: 20rem;
+    height: 24.849;
+  }
+
+  .contacts-heading {
+    order: 1;
+    font-size: 4rem;
+    margin: 0 auto;
+  }
+
+  .city-box {
+    order: 2;
+    margin: 0 auto;
+    margin-top: 10.5rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    height: 18.1rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .footer-data {
+    margin: 0 auto;
+    width: 17rem;
+  }
+
+  .footer-data p {
+    margin-left: -0.28rem;
+  }
+
+  .footer-school {
+    margin: 0 auto;
+  }
+
+  .footer-school p {
+    margin-top: -1rem;
+    margin-left: -0.15rem;
+  }
+
+  .footer-media {
+    margin: 0 auto;
+  }
+
+  .media-list {
+    margin-top: 1.2rem;
+  }
 }
+

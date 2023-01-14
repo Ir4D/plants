@@ -144,7 +144,7 @@ body {
   margin-top: -0.9rem;
   margin-left: -0.95rem;
   background: url(../assets/leafs.png) 100% 100% no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .welcome-box {
@@ -236,7 +236,7 @@ body {
   width: 46.35rem;
   height: 48rem;
   background: url(../assets/houseplant.png) 100% 100% no-repeat;
-  background-size: cover;
+  background-size: 100%;
   margin-right: -0.15rem;
 }
 
@@ -308,6 +308,7 @@ body {
 }
 
 .option-item {
+  width: 33rem;
   padding-bottom: 5.5rem;
 }
 
@@ -503,7 +504,7 @@ body {
   margin-top: 3.45rem;
   margin-right: -0.85rem;
   background: url(../assets/leafs_prices.png) 100% 100% no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 /* ****************************** */
@@ -527,7 +528,7 @@ body {
   margin-left: -0.1rem;
   margin-top: -0.1rem;
   background: url(../assets/woman.png) 100% 100% no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .contacts-heading {
