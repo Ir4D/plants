@@ -140,6 +140,175 @@
 }
 
 /* ****************************** */
+/* BELOW 1056px (66em)            */
+/* 1056px / 16px = 66             */
+/* ****************************** */
+
+@media (max-width: 66em) and (min-width: 48.0625em){
+  /* GENERAL REUSABLE STYLES */
+  .content {
+    width: 76.8rem;
+  }
+
+  /* HEADER */
+  .navbar {
+    width: 90rem;
+    margin: 0 4.2rem;
+  }
+
+  /* WELCOME SECTION */
+  .section-welcome {
+    height: 46rem;
+  }
+
+  .welcome-content {
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .welcome-img {
+    width: 26rem;
+    margin: 0 auto;
+  }
+
+  .welcome-box {
+    width: 42rem;
+  }
+
+  .welcome-heading {
+    font-size: 3.6rem;
+  }
+
+  .welcome-text {
+    font-size: 1.8rem;
+  }
+
+  /* ABOUT SECTION */
+  .section-about {
+    height: 50rem;
+  }
+
+  .about-box {
+    width: 42rem;
+    margin: 0 auto;
+  }
+
+  .about-heading {
+    font-size: 3.6rem;
+  }
+
+  .about-text {
+    font-size: 1.6rem;
+  }
+
+  .about-img {
+    width: 28rem;
+  }
+
+  /* SERVICE SECTION */
+  .section-service {
+    height: 180rem;
+  }
+
+  .service-content {
+    padding-top: 6rem;
+  }
+
+  .service-box {
+    display: block;
+    margin: 0 3.2rem;
+  }
+
+  .service-heading {
+    font-size: 3.6rem;
+  }
+
+  .service-btns {
+    display: flex;
+    margin: 0 3.2rem;
+    margin-top: 3rem;
+  }
+
+  .service-btn {
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .service-btn:nth-child(3) {
+    margin: auto;
+  }
+
+  .service-options {
+    grid-column-gap: 3rem;
+    width: 70rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+
+  /* PRICES SECTION */
+  .section-prices {
+    height: 50rem;
+  }
+
+  .prices-heading {
+    font-size: 3.6rem;
+  }
+
+  .prices-box {
+    padding-left: 4rem;
+  }
+
+  .calling-box {
+    width: 36rem;
+    padding-right: 4rem;
+  }
+
+  .calling-text {
+    font-size: 3rem;
+    width: 36rem;
+  }
+
+  /* CONTACT US SECTION */
+  .section-contacts {
+    height: 45.5rem;
+  }
+
+  .contacts-content {
+    padding-top: 4rem;
+    flex-direction: column;
+  }
+
+  .contacts-img {
+    order: 3;
+    margin: 0 auto;
+    margin-top: -20rem;
+    width: 20rem;
+  }
+
+  .contacts-heading {
+    order: 1;
+    font-size: 3.8rem;
+    margin: 0 auto;
+  }
+
+  .city-box {
+    order: 2;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    height: 12rem;
+  }
+
+  .footer-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* ****************************** */
 /* BELOW 768px (48em) - Tablets   */
 /* 768px / 16px = 48              */
 /* ****************************** */
