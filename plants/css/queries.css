@@ -147,12 +147,12 @@
 @media (max-width: 66em) and (min-width: 48.0625em){
   /* GENERAL REUSABLE STYLES */
   .content {
-    width: 76.8rem;
+    width: 100%;
   }
 
   /* HEADER */
   .navbar {
-    width: 90rem;
+    width: 100%;
     margin: 0 4.2rem;
   }
 
