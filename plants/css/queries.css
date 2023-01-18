@@ -552,6 +552,7 @@
 
   .city-box {
     order: 2;
+    width: 45rem;
     margin: 0 auto;
     margin-top: 10.5rem;
   }
