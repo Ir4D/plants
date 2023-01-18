@@ -1,4 +1,145 @@
 /* ****************************** */
+/* BELOW 1296px (81em)            */
+/* 1296px / 16px = 81             */
+/* ****************************** */
+
+@media (max-width: 81em) {
+  /* GENERAL REUSABLE STYLES */
+  .content {
+    width: 100rem;
+  }
+
+  /* HEADER */
+  .header {
+    height: 12rem;
+  }
+
+  .navbar {
+    width: 100rem;
+  }
+
+  /* WELCOME SECTION */
+  .section-welcome {
+    height: 48rem;
+  }
+
+  .welcome-content {
+    padding-top: 4rem;
+    column-gap: 4.1rem;
+  }
+
+  .welcome-img {
+    margin: 0;
+    width: 32rem;
+    height: auto;
+  }
+
+  .welcome-box {
+    margin: 0 auto;
+    width: 50rem;
+  }
+
+  .welcome-heading {
+    font-size: 4rem;
+  }
+
+  .welcome-text {
+    font-size: 2rem;
+  }
+
+  /* ABOUT SECTION */
+  .section-about {
+    height: 52rem;
+  }
+
+  .about-content {
+    padding-top: 4rem;
+  }
+
+  .about-box {
+    width: 54rem;
+    margin-top: 4rem;
+  }
+
+  .about-heading {
+    font-size: 3.8rem;
+  }
+
+  .about-text {
+    font-size: 1.8rem;
+  }
+
+  .about-img {
+    width: 32rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 6.8rem;
+  }
+
+  /* SERVICE SECTION */
+  .section-service {
+    height: 178rem;
+  }
+
+  .service-box {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .service-heading {
+    font-size: 3.8rem;
+  }
+
+  .service-options {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10.6rem;
+  }
+
+  .option-item {
+    margin: 0 auto;
+  }
+
+  /* PRICES SECTION */
+  .section-prices {
+    height: 52rem;
+  }
+
+  .prices-content {
+    padding-top: 4rem;
+  }
+
+  .prices-heading {
+    font-size: 3.8rem;
+  }
+
+  .calling-text {
+    font-size: 3.2rem;
+  }
+
+  /* CONTACT US SECTION */
+  .section-contacts {
+    height: 53.6rem;
+  }
+
+  .contacts-content {
+    padding-top: 4rem;
+  }
+
+  .contacts-img {
+    width: 30rem;
+  }
+
+  .contacts-heading {
+    font-size: 4rem;
+    margin: 0 auto;
+  }
+
+  .city-box {
+    width: 40rem;
+  }
+}
+
+/* ****************************** */
 /* BELOW 768px (48em) - Tablets   */
 /* 768px / 16px = 48              */
 /* ****************************** */
