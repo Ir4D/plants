@@ -10,3 +10,13 @@ document.querySelectorAll(".nav-link").forEach(elem => elem.addEventListener("cl
   burgerMenu.classList.remove("active");
   navList.classList.remove("active");
 }))
+
+document.querySelectorAll(".main").forEach(elem => elem.addEventListener("click", () => {
+  burgerMenu.classList.remove("active");
+  navList.classList.remove("active");
+}))
+
+document.querySelectorAll(".logo-box").forEach(elem => elem.addEventListener("click", () => {
+  burgerMenu.classList.remove("active");
+  navList.classList.remove("active");
+}))
