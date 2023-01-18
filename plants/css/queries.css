@@ -594,14 +594,15 @@
 }
 
 /* ****************************** */
-/* BELOW 380px (23.75em) - Mobile */
-/* 380px / 16px = 23.75           */
+/* BELOW 704px (44em)             */
+/* 704px / 16px = 44              */
 /* ****************************** */
 
-@media (max-width: 23.75em) {
+/* and (min-width: 23.74em) */
+@media (max-width: 44em) {
   /* GENERAL REUSABLE STYLES */
   .content {
-    width: 33rem;
+    width: 90%;
   }
 
   /* HEADER */
@@ -610,8 +611,7 @@
   }
 
   .navbar {
-    width: 33rem;
-    margin-top: 0.7rem;
+    width: 90%;
   }
 
   .logo-box {
@@ -680,8 +680,8 @@
   }
 
   .welcome-box {
-    margin: 0;
-    width: auto;
+    margin: 0 auto;
+    width: 50rem;
     height: auto;
   }
 
@@ -705,7 +705,7 @@
 
   /* ABOUT SECTION */
   .section-about {
-    height: 51.6rem;
+    height: auto;
   }
 
   .about-content {
@@ -730,6 +730,7 @@
     width: 15rem;
     height: 14.7rem;
     margin-top: 0.8rem;
+    margin-bottom: 4rem;
   }
 
   /* SERVICE SECTION */
@@ -836,6 +837,10 @@
     margin-left: -0.01rem;
   }
 
+  .prices-box {
+    margin: 0 auto;
+  }
+
   .prices-block {
     width: 22.4rem;
     height: 23.5rem;
@@ -938,5 +943,64 @@
 
   .media-list {
     margin-top: -0.1rem;
+  }
+}
+
+/* ****************************** */
+/* BELOW 380px (23.75em) - Mobile */
+/* 380px / 16px = 23.75           */
+/* ****************************** */
+
+@media (max-width: 23.75em) {
+  /* GENERAL REUSABLE STYLES */
+  .content {
+    width: 33rem;
+  }
+
+  /* HEADER */
+  .navbar {
+    width: 33rem;
+    margin-top: 0.7rem;
+  }
+
+  .logo-box {
+    margin-left: -0.15rem;
+  }
+
+  /* ABOUT SECTION */
+  .section-about {
+    height: 51.6rem;
+  }
+}
+
+/* ****************************** */
+/* BELOW 352px (22em)             */
+/* 352px / 16px = 22              */
+/* ****************************** */
+
+@media (max-width: 22em) {
+  /* GENERAL REUSABLE STYLES */
+  .content {
+    width: 90%;
+  }
+
+  /* HEADER */
+  .navbar {
+    width: 90%;
+  }
+
+  /* WELCOME SECTION */
+  .welcome-box {
+    width: auto;
+  }
+
+  /* PRICES SECTION */
+  .prices-box {
+    width: auto;
+  }
+
+  /* CONTACT US SECTION */
+  .city-box {
+    width: 100%;
   }
 }
