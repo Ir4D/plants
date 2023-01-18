@@ -990,8 +990,16 @@
   }
 
   /* WELCOME SECTION */
+  .section-welcome {
+    height: auto;
+  }
+
   .welcome-box {
     width: auto;
+  }
+
+  .welcome-btn {
+    margin-bottom: 3rem;
   }
 
   /* PRICES SECTION */
