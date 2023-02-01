@@ -163,3 +163,68 @@ btnPrices.forEach(item => {
     });
   });
 })
+
+/* ****************************** */
+/* CONTACTS SELECTION */
+/* ****************************** */
+
+document.querySelector('.city-img').addEventListener('click', function() {
+  document.querySelector('.select-head').classList.toggle('active');
+  document.querySelector('.city-img').classList.toggle('opened');
+  document.querySelector('.select-body').classList.toggle('opened');
+});
+
+const selectItem = document.querySelectorAll('.select-item');
+const cityText = document.querySelector('.city-text');
+
+selectItem.forEach(item => {
+  item.addEventListener('click', function() {
+    document.querySelector('.city-img').classList.toggle('opened');
+    document.querySelector('.select-body').classList.toggle('opened');
+
+    cityText.innerText = this.innerText;
+    cityText.style.fontSize = '1.6rem';
+    document.querySelector('.select-head').classList.add('active');
+
+    if (item.firstElementChild.innerText == "Canandaigua, NY") {
+      document.querySelector('.city-newyork').style.display = 'none';
+      document.querySelector('.city-yonkers').style.display = 'none';
+      document.querySelector('.city-sherrill').style.display = 'none';
+      document.querySelector('.city-canandaigua').style.display = 'block';
+      if (window.matchMedia('(max-width: 66em)').matches) {
+        document.querySelector('.contacts-img').style.display = 'none';
+      };
+    } else if (item.firstElementChild.innerText == 'New York City') {
+      document.querySelector('.city-canandaigua').style.display = 'none';
+      document.querySelector('.city-yonkers').style.display = 'none';
+      document.querySelector('.city-sherrill').style.display = 'none';
+      document.querySelector('.city-newyork').style.display = 'block';
+      if (window.matchMedia('(max-width: 66em)').matches) {
+        document.querySelector('.contacts-img').style.display = 'none';
+      };
+    } else if (item.firstElementChild.innerText == 'Yonkers, NY') {
+      document.querySelector('.city-canandaigua').style.display = 'none';
+      document.querySelector('.city-newyork').style.display = 'none';
+      document.querySelector('.city-sherrill').style.display = 'none';
+      document.querySelector('.city-yonkers').style.display = 'block';
+      if (window.matchMedia('(max-width: 66em)').matches) {
+        document.querySelector('.contacts-img').style.display = 'none';
+      };
+    } else if (item.firstElementChild.innerText == 'Sherrill, NY') {
+      document.querySelector('.city-canandaigua').style.display = 'none';
+      document.querySelector('.city-newyork').style.display = 'none';
+      document.querySelector('.city-yonkers').style.display = 'none';
+      document.querySelector('.city-sherrill').style.display = 'block';
+      if (window.matchMedia('(max-width: 66em)').matches) {
+        document.querySelector('.contacts-img').style.display = 'none';
+      };
+    };
+  });
+});
+
+
+// if (window.matchMedia('(max-width: 66em)').matches) {
+//   document.querySelector('.contacts-img').style.display = 'none';
+// } else {
+//   document.querySelector('.contacts-img').style.display = 'auto';
+// };

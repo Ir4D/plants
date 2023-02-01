@@ -628,18 +628,34 @@ body {
   margin-left: 4.42rem;
 }
 
+.select-container {
+  width: 45rem;
+  position: relative;
+}
+
 .city-box {
+  width: 45rem;
+  margin-top: 9.48rem;
+  margin-right: -0.1rem;
+}
+
+.select-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 45rem;
+  /* width: 45rem; */
   height: 5rem;
   background: #d6e7d2;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 0px;
-  margin-top: 9.48rem;
-  margin-right: -0.1rem;
+  /* margin-top: 9.48rem; */
+  /* margin-right: -0.1rem; */
   padding: 0 3.46rem 0 1.987rem;
+}
+
+.active.select-head {
+  background-color: #c1e698;
+  box-shadow: none;
 }
 
 .city-text {
@@ -654,6 +670,100 @@ body {
   height: 1.6rem;
   background: url(../assets/contacts_btn.png) 100% 100% no-repeat;
   background-size: cover;
+  cursor: pointer;
+}
+
+.opened.city-img {
+  background: url(../assets/contacts_btn_opened.png) 100% 100% no-repeat;
+}
+
+.select-body {
+  position: absolute;
+  display: none;
+  background-color: #dce9d9;
+  width: 45rem;
+  padding-right: 2rem;
+  padding-bottom: 1.9rem;
+}
+
+.opened.select-body {
+  display: block;
+}
+
+.select-item {
+  margin: 1.2rem 5rem 1.2rem 2rem;
+}
+
+.select-text {
+  font-size: 1.6rem;
+  line-height: 4rem;
+  letter-spacing: 0.05rem;
+  color: #499a18;
+  margin-left: 0.6rem;
+  cursor: pointer;
+}
+
+.select-line {
+  background-color: #d9d9d9;
+  height: 0.05rem;
+  border: 0;
+}
+
+.select-item:hover .select-text {
+  color: #717171;
+}
+
+.select-item:hover .select-line {
+  background-color: #717171;
+}
+
+.city-card {
+  width: 44.8rem;
+  height: 21.4rem;
+  background-color: #edf2ec;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding-top: 1.6rem;
+  padding-left: 3.25rem;
+  font-size: 1.6rem;
+  margin-top: 5rem;
+  display: none;
+}
+
+.city-wrapper {
+  display: flex;
+  line-height: 4rem;
+  letter-spacing: 0.07rem;
+}
+
+.city-wrapper > p:first-child {
+  width: 13.2rem;
+  color: #000000;
+}
+
+.city-wrapper > p:nth-child(2) {
+  color: #717171;
+}
+
+.card-btn {
+  width: 12.2rem;
+  height: 2.6rem;
+  border: 1px solid #e06733;
+  border-radius: 5px;
+  font-family: "Inika";
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  text-align: center;
+  color: #717171;
+  background-color: #edf2ec;
+  margin-top: 2rem;
+  margin-left: 12.9rem;
+}
+
+.card-btn a {
+  text-decoration: none;
+  color: #717171;
 }
 
 /* ****************************** */
