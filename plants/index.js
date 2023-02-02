@@ -221,10 +221,3 @@ selectItem.forEach(item => {
     };
   });
 });
-
-
-// if (window.matchMedia('(max-width: 66em)').matches) {
-//   document.querySelector('.contacts-img').style.display = 'none';
-// } else {
-//   document.querySelector('.contacts-img').style.display = 'auto';
-// };

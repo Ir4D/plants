@@ -1019,6 +1019,11 @@
     padding: 0;
   }
 
+  .select-body {
+    width: 30rem;
+    padding-right: 0;
+  }
+
   .city-card {
     width: 28.2rem;
     height: 21.2rem;
@@ -1091,7 +1096,7 @@
   }
 
   .select-body {
-    width: 24rem;
+    width: 26rem;
   }
 
   .city-card {

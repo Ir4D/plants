@@ -759,11 +759,7 @@ body {
   background-color: #edf2ec;
   margin-top: 2rem;
   margin-left: 12.9rem;
-}
-
-.card-btn a {
-  text-decoration: none;
-  color: #717171;
+  cursor: pointer;
 }
 
 /* ****************************** */
